@@ -72,7 +72,7 @@ const content = {
     contactTag: "06 — Get in touch 📬",
     contactHeading: "I always welcome inquiries and new ideas.",
     closeBtn: "CLOSE",
-    tools: ['⚡ PyTorch', '🐍 Python', '👁️ Computer Vision', '🎯 YOLOv10', '🧮 MATLAB', '☕ Java', '🗄️ SQL', '📊 Pandas'],
+    tools: ['⚡ PyTorch', '🧩 Python', '👁️ Computer Vision', '🎯 YOLOv10', '🧮 MATLAB', '☕ Java', '🗄️ SQL', '📊 Pandas'],
     menu: [
       { href: '#about', num: '// 01', label: 'Profile' },
       { href: '#projects', num: '// 02', label: 'Projects' },
@@ -126,7 +126,7 @@ const content = {
     contactTag: "06 — تواصلي معي 📬",
     contactHeading: 'أرحب دائماً بالاستفسارات والأفكار الجديدة.',
     closeBtn: "إغلاق",
-    tools: ['⚡ PyTorch', '🐍 Python', '👁️ Computer Vision', '🎯 YOLOv10', '🧮 MATLAB', '☕ Java', '🗄️ SQL', '📊 Pandas'],
+    tools: ['⚡ PyTorch', '🧩 Python', '👁️ Computer Vision', '🎯 YOLOv10', '🧮 MATLAB', '☕ Java', '🗄️ SQL', '📊 Pandas'],
     menu: [
       { href: '#about', num: '// 01', label: 'الملف الشخصي' },
       { href: '#projects', num: '// 02', label: 'المشاريع' },
