@@ -49,12 +49,12 @@ const DownloadIcon = () => (
 
 const content = {
   EN: {
-    greeting: "Hi, I'm ✨",
+    greeting: "Hi, I'm",
     name: "Danah Matuq",
     subTitle: "AI Engineer · Machine Learning · Computer Vision",
     aiQuote: "Artificial Intelligence is not just about making machines smarter; it's about solving problems that matter.",
     downloadCv: "Download CV 📄",
-    aboutTag: "01 — Profile 🔬",
+    aboutTag: "01 — Profile 🔍",
     aboutSub: "About me",
     aboutText: "An Artificial Intelligence engineer. Passionate about developing intelligent solutions using machine learning, data analysis, and computer vision. Driven by the potential of AI to create positive societal impact, I aim to build systems that continuously learn, adapt, and evolve, with a focus on predictive models and data-driven solutions.",
     expectedGrad: "🎓 Expected Graduation 2027",
@@ -103,12 +103,12 @@ const content = {
     ]
   },
   AR: {
-    greeting: 'أهلاً، أنا ✨',
+    greeting: 'أهلاً، أنا',
     name: 'دانه معتوق',
     subTitle: "AI Engineer · Machine Learning · Computer Vision",
     aiQuote: 'الذكاء الاصطناعي لا يقتصر فقط على جعل الآلات أكثر ذكاءً؛ بل يتعلق بحل المشكلات المعقدة التي تهم البشرية وتصنع الفارق.',
     downloadCv: "تحميل السيرة الذاتية 📄",
-    aboutTag: "01 — الملف الشخصي 🔬",
+    aboutTag: "01 — الملف الشخصي 🔍",
     aboutSub: "نبذة عني",
     aboutText: 'مهندسة ذكاء اصطناعي، شغوفة بتطوير الحلول الذكية باستخدام تعلم الآلة، تحليل البيانات، والرؤية الحاسوبية. مدفوعة بإمكانيات الذكاء الاصطناعي لخلق تأثير مجتمعي إيجابي، وأهدف إلى بناء أنظمة تتعلم وتتكيف وتتطور باستمرار، مع التركيز على النماذج التنبؤية والحلول القائمة على البيانات.',
     expectedGrad: '🎓 التخرج المتوقع 2027',
@@ -172,7 +172,7 @@ export default function App() {
       className="min-h-screen bg-[#0B111E] text-zinc-100 selection:bg-cyan-500 selection:text-black antialiased relative overflow-hidden transition-all duration-500"
       style={{ direction: isRtl ? 'rtl' : 'ltr', fontFamily }}
     >
-      {/* Grid Overlay adjusted for Dark Blue theme */}
+      {/* Grid Overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#1E293B_1px,transparent_1px),linear-gradient(to_bottom,#1E293B_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-40" />
       <div className="fixed inset-0 -z-10">
         <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-cyan-500/15 rounded-full blur-[140px]" />
