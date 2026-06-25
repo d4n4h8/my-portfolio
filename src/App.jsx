@@ -49,27 +49,27 @@ const DownloadIcon = () => (
 
 const content = {
   EN: {
-    greeting: "Hi, I'm",
+    greeting: "Hi, I'm ✨",
     name: "Danah Matuq",
     subTitle: "AI Engineer · Machine Learning · Computer Vision",
     aiQuote: "Artificial Intelligence is not just about making machines smarter; it's about solving problems that matter.",
-    downloadCv: "Download CV",
-    aboutTag: "01 — Profile",
+    downloadCv: "Download CV 📄",
+    aboutTag: "01 — Profile 🔬",
     aboutSub: "About me",
     aboutText: "An Artificial Intelligence engineer. Passionate about developing intelligent solutions using machine learning, data analysis, and computer vision. Driven by the potential of AI to create positive societal impact, I aim to build systems that continuously learn, adapt, and evolve, with a focus on predictive models and data-driven solutions.",
-    expectedGrad: "Expected Graduation 2027",
-    eduTitle: "Education",
+    expectedGrad: "🎓 Expected Graduation 2027",
+    eduTitle: "Education 🏛️",
     eduUni: "Umm Al-Qura University",
     eduDegree: "Bachelor's in Artificial Intelligence",
-    workTag: "02 — Selected Work",
+    workTag: "02 — Selected Work 💻",
     workSub: "Featured Work",
-    hackathonTag: "03 — Hackathons",
+    hackathonTag: "03 — Hackathons 🚀",
     hackathonSub: "Hackathons & Competitions",
-    skillsTag: "04 — Capabilities",
+    skillsTag: "04 — Capabilities 🧠",
     skillsSub: "Capabilities",
-    certTag: "05 — Courses",
+    certTag: "05 — Courses 🎖️",
     certSub: "Courses",
-    contactTag: "06 — Get in touch",
+    contactTag: "06 — Get in touch 📬",
     contactHeading: "I always welcome inquiries and new ideas.",
     closeBtn: "CLOSE",
     tools: ['⚡ PyTorch', '🐍 Python', '👁️ Computer Vision', '🎯 YOLOv10', '🧮 MATLAB', '☕ Java', '🗄️ SQL', '📊 Pandas'],
@@ -81,13 +81,13 @@ const content = {
       { href: '#contact', num: '// 05', label: 'Get in Touch' },
     ],
     projects: [
-      { num: '1/4', tag: 'Current Mission', title: 'NABEEH | نبيه – Smart System for Predicting Pedestrian Safety in Blind Spots', desc: 'An AI-powered pedestrian safety system designed for Infrastructure-to-Vehicle (I2V) environments. It combines object detection, tracking, trajectory prediction, and risk assessment to provide real-time safety alerts for drivers.', tech: ['YOLOv10', 'DeepSORT', 'Social-LSTM', 'OpenCV'] },
-      { num: '2/4', tag: '', title: 'Cardiac Arrest Risk Prediction System', desc: 'A specialized machine learning system that utilizes deep time-series parsing and synthetic medical feature engineering to predict patient cardiac arrest risks 10-30 minutes in advance.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'] },
-      { num: '3/4', tag: '', title: 'Discovering Emergent Visual Identities in Static Images', desc: 'An unsupervised learning project that discovers hidden visual patterns in interior design images using feature extraction, dimensionality reduction, and clustering techniques.', tech: ['ResNet50', 'PCA', 'K-Means', 'DBSCAN', 't-SNE', 'Python'] },
-      { num: '4/4', tag: '', title: 'Neural Style Transfer', desc: 'Deep Learning project that transforms images into artistic styles using convolutional neural networks and representation learning.', tech: ['PyTorch', 'VGG19', 'Computer Vision'] }
+      { num: '1/4', tag: '🔥 Current Mission', title: 'NABEEH | نبيه – Smart System for Predicting Pedestrian Safety in Blind Spots', desc: 'An AI-powered pedestrian safety system designed for Infrastructure-to-Vehicle (I2V) environments. It combines object detection, tracking, trajectory prediction, and risk assessment to provide real-time safety alerts for drivers.', tech: ['YOLOv10', 'DeepSORT', 'Social-LSTM', 'OpenCV'] },
+      { num: '2/4', tag: '', title: '❤️ Cardiac Arrest Risk Prediction System', desc: 'A specialized machine learning system that utilizes deep time-series parsing and synthetic medical feature engineering to predict patient cardiac arrest risks 10-30 minutes in advance.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'] },
+      { num: '3/4', tag: '', title: '🎨 Discovering Emergent Visual Identities in Static Images', desc: 'An unsupervised learning project that discovers hidden visual patterns in interior design images using feature extraction, dimensionality reduction, and clustering techniques.', tech: ['ResNet50', 'PCA', 'K-Means', 'DBSCAN', 't-SNE', 'Python'] },
+      { num: '4/4', tag: '', title: '👁️ Neural Style Transfer', desc: 'Deep Learning project that transforms images into artistic styles using convolutional neural networks and representation learning.', tech: ['PyTorch', 'VGG19', 'Computer Vision'] }
     ],
     hackathons: [
-      { title: 'CoFind - Asir Tabtaker Hackathon (2025)', date: 'Jul 2025 - Jul 2025', desc: "Developed an AI-powered classification system, achieving 91.2% accuracy in identifying export-quality coffee beans. Reduced agricultural waste and increased farmers profitability.", tools: ['Python', 'Machine Learning', 'Computer Vision (YOLOv11)'] }
+      { title: '☕ CoFind - Asir Tabtaker Hackathon (2025)', date: 'Jul 2025 - Jul 2025', desc: "Developed an AI-powered classification system, achieving 91.2% accuracy in identifying export-quality coffee beans. Reduced agricultural waste and increased farmers profitability.", tools: ['Python', 'Machine Learning', 'Computer Vision (YOLOv11)'] }
     ],
     skills: [
       { cat: '🤖 AI & Machine Learning', items: [{ n: 'Machine Learning', l: '92%' }, { n: 'Deep Learning', l: '88%' }, { n: 'Computer Vision', l: '85%' }, { n: 'Neural Networks', l: '80%' }] },
@@ -95,35 +95,35 @@ const content = {
       { cat: '📊 Data & Analytics', items: [{ n: 'Data Analysis', l: '90%' }, { n: 'Data Visualization', l: '95%' }] }
     ],
     courses: [
-      { t: "Introduction to Optimization in Python", p: "DataCamp - Dec 2024" },
-      { t: "Data Manipulation with pandas", p: "DataCamp - Jan 2025" },
-      { t: "PRE-AI Bootcamp", p: "AI Pioneers Club & PRE HACK - Jul 2025" },
-      { t: "Artificial Intelligence Fundamentals with Capstone Project", p: "IBM SkillsBuild - Jul 2025" },
-      { t: "IBM SkillsBuild: EYOUTH Learning Plan", p: "IBM & EYOUTH - Jan 2026" }
+      { t: "📉 Introduction to Optimization in Python", p: "DataCamp - Dec 2024" },
+      { t: "🐼 Data Manipulation with pandas", p: "DataCamp - Jan 2025" },
+      { t: "🚀 PRE-AI Bootcamp", p: "AI Pioneers Club & PRE HACK - Jul 2025" },
+      { t: "🤖 Artificial Intelligence Fundamentals with Capstone Project", p: "IBM SkillsBuild - Jul 2025" },
+      { t: "💼 IBM SkillsBuild: EYOUTH Learning Plan", p: "IBM & EYOUTH - Jan 2026" }
     ]
   },
   AR: {
-    greeting: 'أهلاً، أنا',
+    greeting: 'أهلاً، أنا ✨',
     name: 'دانه معتوق',
     subTitle: "AI Engineer · Machine Learning · Computer Vision",
     aiQuote: 'الذكاء الاصطناعي لا يقتصر فقط على جعل الآلات أكثر ذكاءً؛ بل يتعلق بحل المشكلات المعقدة التي تهم البشرية وتصنع الفارق.',
-    downloadCv: "تحميل السيرة الذاتية",
-    aboutTag: "01 — الملف الشخصي",
+    downloadCv: "تحميل السيرة الذاتية 📄",
+    aboutTag: "01 — الملف الشخصي 🔬",
     aboutSub: "نبذة عني",
     aboutText: 'مهندسة ذكاء اصطناعي، شغوفة بتطوير الحلول الذكية باستخدام تعلم الآلة، تحليل البيانات، والرؤية الحاسوبية. مدفوعة بإمكانيات الذكاء الاصطناعي لخلق تأثير مجتمعي إيجابي، وأهدف إلى بناء أنظمة تتعلم وتتكيف وتتطور باستمرار، مع التركيز على النماذج التنبؤية والحلول القائمة على البيانات.',
-    expectedGrad: 'التخرج المتوقع 2027',
-    eduTitle: 'التعليم',
+    expectedGrad: '🎓 التخرج المتوقع 2027',
+    eduTitle: 'التعليم 🏛️',
     eduUni: 'جامعة أم القرى',
     eduDegree: 'بكالوريوس في الذكاء الاصطناعي',
-    workTag: "02 — المشاريع المختارة",
+    workTag: "02 — المشاريع المختارة 💻",
     workSub: "المشاريع البارزة",
-    hackathonTag: "03 — الهاكاثونات",
+    hackathonTag: "03 — الهاكاثونات 🚀",
     hackathonSub: 'الهاكاثونات والمسابقات',
-    skillsTag: "04 — القدرات",
+    skillsTag: "04 — القدرات 🧠",
     skillsSub: "القدرات",
-    certTag: "05 — الدورات",
+    certTag: "05 — الدورات 🎖️",
     certSub: "الدورات",
-    contactTag: "06 — تواصلي معي",
+    contactTag: "06 — تواصلي معي 📬",
     contactHeading: 'أرحب دائماً بالاستفسارات والأفكار الجديدة.',
     closeBtn: "إغلاق",
     tools: ['⚡ PyTorch', '🐍 Python', '👁️ Computer Vision', '🎯 YOLOv10', '🧮 MATLAB', '☕ Java', '🗄️ SQL', '📊 Pandas'],
@@ -135,13 +135,13 @@ const content = {
       { href: '#contact', num: '// 05', label: 'تواصلي معي' },
     ],
     projects: [
-      { num: '1/4', tag: 'المهمة الحالية', title: 'نبيه | NABEEH - نظام ذكي للتنبؤ بسلامة المشاة في النقاط العمياء', desc: 'نظام أمان للمشاة مدعوم بالذكاء الاصطناعي مصمم لبيئات البنية التحتية للمركبات (I2V). يجمع بين اكتشاف الأشياء، التتبع، التنبؤ بالمسار، وتقييم المخاطر لتقديم تنبيهات أمان فورية للسائقين.', tech: ['YOLOv10', 'DeepSORT', 'Social-LSTM', 'OpenCV'] },
-      { num: '2/4', tag: '', title: 'نظام التنبؤ بمخاطر السكتة القلبية', desc: 'نظام متخصص في تعلم الآلة يستخدم التحليل العميق للسلاسل الزمنية وهندسة الميزات الطبية الاصطناعية للتنبؤ بمخاطر السكتة القلبية للمرضى قبل 10-30 دقيقة.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'] },
-      { num: '3/4', tag: '', title: 'اكتشاف الهويات البصرية الناشئة في الصور الثابتة', desc: 'مشروع تعلم غير خاضع للإشراف يكتشف الأنماط البصرية المخفية في صور التصميم الداخلي باستخدام استخراج الميزات، تقليل الأبعاد، وتقنيات التجميع.', tech: ['ResNet50', 'PCA', 'K-Means', 'DBSCAN', 't-SNE', 'Python'] },
-      { num: '4/4', tag: '', title: 'نقل الأنماط العصبية (Neural Style Transfer)', desc: 'مشروع تعلم عميق يقوم بتحويل الصور إلى أنماط فنية باستخدام الشبكات العصبية الالتفافية والتعلم التمثيلي.', tech: ['PyTorch', 'VGG19', 'Computer Vision'] }
+      { num: '1/4', tag: '🔥 المهمة الحالية', title: 'نبيه | NABEEH - نظام ذكي للتنبؤ بسلامة المشاة في النقاط العمياء', desc: 'نظام أمان للمشاة مدعوم بالذكاء الاصطناعي مصمم لبيئات البنية التحتية للمركبات (I2V). يجمع بين اكتشاف الأشياء، التتبع، التنبؤ بالمسار، وتقييم المخاطر لتقديم تنبيهات أمان فورية للسائقين.', tech: ['YOLOv10', 'DeepSORT', 'Social-LSTM', 'OpenCV'] },
+      { num: '2/4', tag: '', title: '❤️ نظام التنبؤ بمخاطر السكتة القلبية', desc: 'نظام متخصص في تعلم الآلة يستخدم التحليل العميق للسلاسل الزمنية وهندسة الميزات الطبيعية الاصطناعية للتنبؤ بمخاطر السكتة القلبية للمرضى قبل 10-30 دقيقة.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'] },
+      { num: '3/4', tag: '', title: '🎨 اكتشاف الهويات البصرية الناشئة في الصور الثابتة', desc: 'مشروع تعلم غير خاضع للإشراف يكتشف الأنماط البصرية المخفية في صور التصميم الداخلي باستخدام استخراج الميزات، تقليل الأبعاد، وتقنيات التجميع.', tech: ['ResNet50', 'PCA', 'K-Means', 'DBSCAN', 't-SNE', 'Python'] },
+      { num: '4/4', tag: '', title: '👁️ نقل الأنماط العصبية (Neural Style Transfer)', desc: 'مشروع تعلم عميق يقوم بتحويل الصور إلى أنماط فنية باستخدام الشبكات العصبية الالتفافية والتعلم التمثيلي.', tech: ['PyTorch', 'VGG19', 'Computer Vision'] }
     ],
     hackathons: [
-      { title: 'CoFind - هاكاثون عسير تبتكر (2025)', date: 'يوليو 2025 - يوليو 2025', desc: 'تطوير نظام تصنيف مدعوم بالذكاء الاصطناعي، وتحقيق دقة بلغت 91.2% في تحديد حبوب البن الصالحة للتصدير. ساهم المشروع في تقليل النفايات الزراعية وزيادة ربحية المزارعين.', tools: ['Python', 'Machine Learning', 'Computer Vision (YOLOv11)'] }
+      { title: '☕ CoFind - هاكاثون عسير تبتكر (2025)', date: 'يوليو 2025 - يوليو 2025', desc: 'تطوير نظام تصنيف مدعوم بالذكاء الاصطناعي، وتحقيق دقة بلغت 91.2% في تحديد حبوب البن الصالحة للتصدير. ساهم المشروع في تقليل النفايات الزراعية وزيادة ربحية المزارعين.', tools: ['Python', 'Machine Learning', 'Computer Vision (YOLOv11)'] }
     ],
     skills: [
       { cat: '🤖 الذكاء الاصطناعي وتعلم الآلة', items: [{ n: 'Machine Learning', l: '92%' }, { n: 'Deep Learning', l: '88%' }, { n: 'Computer Vision', l: '85%' }, { n: 'Neural Networks', l: '80%' }] },
@@ -149,11 +149,11 @@ const content = {
       { cat: '📊 البيانات والتحليل', items: [{ n: 'Data Analysis', l: '90%' }, { n: 'Data Visualization', l: '95%' }] }
     ],
     courses: [
-      { t: "Introduction to Optimization in Python", p: "DataCamp - Dec 2024" },
-      { t: "Data Manipulation with pandas", p: "DataCamp - Jan 2025" },
-      { t: "PRE-AI Bootcamp", p: "AI Pioneers Club & PRE HACK - Jul 2025" },
-      { t: "Artificial Intelligence Fundamentals with Capstone Project", p: "IBM SkillsBuild - Jul 2025" },
-      { t: "IBM SkillsBuild: EYOUTH Learning Plan", p: "IBM & EYOUTH - Jan 2026" }
+      { t: "📉 Introduction to Optimization in Python", p: "DataCamp - Dec 2024" },
+      { t: "🐼 Data Manipulation with pandas", p: "DataCamp - Jan 2025" },
+      { t: "🚀 PRE-AI Bootcamp", p: "AI Pioneers Club & PRE HACK - Jul 2025" },
+      { t: "🤖 Artificial Intelligence Fundamentals with Capstone Project", p: "IBM SkillsBuild - Jul 2025" },
+      { t: "💼 IBM SkillsBuild: EYOUTH Learning Plan", p: "IBM & EYOUTH - Jan 2026" }
     ]
   }
 }
@@ -169,16 +169,17 @@ export default function App() {
 
   return (
     <div
-      className="min-h-screen bg-[#08080A] text-zinc-100 selection:bg-cyan-500 selection:text-black antialiased relative overflow-hidden transition-all duration-500"
+      className="min-h-screen bg-[#0B111E] text-zinc-100 selection:bg-cyan-500 selection:text-black antialiased relative overflow-hidden transition-all duration-500"
       style={{ direction: isRtl ? 'rtl' : 'ltr', fontFamily }}
     >
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#14141a_1px,transparent_1px),linear-gradient(to_bottom,#14141a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-60" />
+      {/* Grid Overlay adjusted for Dark Blue theme */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#1E293B_1px,transparent_1px),linear-gradient(to_bottom,#1E293B_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-40" />
       <div className="fixed inset-0 -z-10">
-        <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-cyan-500/10 rounded-full blur-[140px]" />
+        <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-cyan-500/15 rounded-full blur-[140px]" />
       </div>
 
       {/* NAV */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-6 py-4 bg-[#08080A]/80 backdrop-blur-md border-b border-zinc-900/40">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-6 py-4 bg-[#0B111E]/80 backdrop-blur-md border-b border-zinc-800/40">
         <div className="flex items-center gap-3 group cursor-pointer">
           <img src="https://avatars.githubusercontent.com/u/183488293?v=4" alt="Logo" className="w-11 h-11 rounded-xl object-cover shadow-lg border border-zinc-800/80 group-hover:border-cyan-500/50 transition-all duration-300" />
           <div className="px-4 py-1.5 bg-zinc-900/40 border border-zinc-800/60 rounded-full group-hover:border-cyan-500/30 transition-all duration-300 shadow-inner">
@@ -201,7 +202,7 @@ export default function App() {
 
       {/* MENU */}
       {menuOpen && (
-        <div className="fixed inset-0 z-40 bg-black/95 backdrop-blur-2xl flex flex-col justify-center p-8">
+        <div className="fixed inset-0 z-40 bg-slate-950/95 backdrop-blur-2xl flex flex-col justify-center p-8">
           <button onClick={() => setMenuOpen(false)} className="absolute top-6 right-6 text-zinc-500 hover:text-cyan-400 text-xs tracking-widest bg-zinc-900/80 px-4 py-2 rounded-xl border border-zinc-800 transition-all">
             [ {current.closeBtn} ]
           </button>
@@ -223,65 +224,65 @@ export default function App() {
             {current.greeting}{' '}
             <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent font-black">{current.name}</span>
           </h1>
-          <p className="text-sm md:text-base tracking-widest text-zinc-400 font-semibold uppercase">{current.subTitle}</p>
+          <p className="text-sm md:text-base tracking-widest text-blue-300/90 font-semibold uppercase">{current.subTitle}</p>
         </div>
-        <p className="text-zinc-500 max-w-2xl mx-auto font-light text-base md:text-lg italic leading-relaxed pt-2">"{current.aiQuote}"</p>
+        <p className="text-slate-400 max-w-2xl mx-auto font-light text-base md:text-lg italic leading-relaxed pt-2">"{current.aiQuote}"</p>
         <div className="pt-4">
-          <a href="https://1drv.ms/b/c/30548c9fda99acc0/IQBsU9NUgJtvSrubLLO3LQUJATIegTLgUdx9ZyTRyP7P8wc" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2.5 px-6 py-3.5 bg-zinc-900/80 hover:bg-zinc-900 text-zinc-200 hover:text-cyan-400 border border-zinc-800 hover:border-cyan-500/30 rounded-xl text-xs font-bold transition-all shadow-md tracking-wider shadow-cyan-500/5">
+          <a href="https://1drv.ms/b/c/30548c9fda99acc0/IQBsU9NUgJtvSrubLLO3LQUJATIegTLgUdx9ZyTRyP7P8wc" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2.5 px-6 py-3.5 bg-slate-900/80 hover:bg-slate-900 text-zinc-200 hover:text-cyan-400 border border-slate-800 hover:border-cyan-500/30 rounded-xl text-xs font-bold transition-all shadow-md tracking-wider shadow-cyan-500/5">
             <DownloadIcon />
             <span>{current.downloadCv}</span>
           </a>
         </div>
         <div className="flex flex-wrap justify-center gap-2 max-w-2xl mx-auto pt-4">
           {current.tools.map((tool, i) => (
-            <span key={i} className="px-3 py-1.5 text-xs bg-zinc-900/60 text-zinc-300 rounded-lg border border-zinc-800/60 shadow-sm">{tool}</span>
+            <span key={i} className="px-3 py-1.5 text-xs bg-slate-900/60 text-slate-200 rounded-lg border border-slate-800/60 shadow-sm hover:border-cyan-500/30 transition-all">{tool}</span>
           ))}
         </div>
       </header>
 
       {/* ABOUT */}
-      <section id="about" className="py-24 px-6 max-w-5xl mx-auto border-t border-zinc-900/60">
+      <section id="about" className="py-24 px-6 max-w-5xl mx-auto border-t border-slate-900/60">
         <div className="mb-10">
-          <div className="text-xs uppercase tracking-widest text-zinc-500 font-bold">{current.aboutTag}</div>
+          <div className="text-xs uppercase tracking-widest text-cyan-400/80 font-bold">{current.aboutTag}</div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mt-1">{current.aboutSub}</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-12 items-start">
-          <div className="md:col-span-2 text-lg text-zinc-300 font-light leading-relaxed space-y-4">
+          <div className="md:col-span-2 text-lg text-slate-300 font-light leading-relaxed space-y-4">
             <p>{current.aboutText}</p>
-            <div className="inline-block text-xs text-cyan-400 bg-cyan-500/5 px-2.5 py-1 rounded border border-cyan-500/10 tracking-wider uppercase font-semibold">{current.expectedGrad}</div>
+            <div className="inline-block text-xs text-cyan-400 bg-cyan-500/10 px-2.5 py-1 rounded border border-cyan-500/20 tracking-wider uppercase font-semibold">{current.expectedGrad}</div>
           </div>
-          <div className="bg-gradient-to-br from-zinc-900/60 to-zinc-950/60 border border-zinc-800 p-6 rounded-2xl space-y-3 shadow-xl backdrop-blur-sm hover:border-cyan-500/30 transition-all">
+          <div className="bg-gradient-to-br from-slate-900/80 to-slate-950/80 border border-slate-800 p-6 rounded-2xl space-y-3 shadow-xl backdrop-blur-sm hover:border-cyan-500/30 transition-all">
             <h3 className="text-xs font-bold uppercase tracking-widest text-cyan-400">{current.eduTitle}</h3>
             <div>
               <h4 className="font-bold text-white text-base">{current.eduUni}</h4>
-              <p className="text-sm text-zinc-400 mt-1">{current.eduDegree}</p>
+              <p className="text-sm text-slate-400 mt-1">{current.eduDegree}</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* PROJECTS */}
-      <section id="projects" className="py-24 px-6 max-w-5xl mx-auto border-t border-zinc-900/60">
+      <section id="projects" className="py-24 px-6 max-w-5xl mx-auto border-t border-slate-900/60">
         <div className="mb-14">
-          <div className="text-xs uppercase tracking-widest text-zinc-500 font-bold">{current.workTag}</div>
+          <div className="text-xs uppercase tracking-widest text-cyan-400/80 font-bold">{current.workTag}</div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mt-1">{current.workSub}</h2>
         </div>
-        <div className="divide-y divide-zinc-900/80">
+        <div className="divide-y divide-slate-900/80">
           {current.projects.map((project, i) => (
-            <div key={i} className="group py-8 flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-zinc-900/10 px-4 -mx-4 rounded-xl transition-all duration-300">
+            <div key={i} className="group py-8 flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-slate-900/30 px-4 -mx-4 rounded-xl transition-all duration-300">
               <div className="space-y-2 max-w-2xl">
                 <div className="flex items-center gap-3 flex-wrap">
-                  <span className="text-xs text-zinc-600 group-hover:text-cyan-400 transition-colors">{project.num}</span>
+                  <span className="text-xs text-slate-500 group-hover:text-cyan-400 transition-colors">{project.num}</span>
                   <h3 className="text-lg font-bold text-zinc-100 group-hover:text-cyan-400 transition-colors">{project.title}</h3>
                   {project.tag && (
-                    <span className="text-cyan-400 tracking-wider uppercase font-semibold text-[10px] bg-cyan-500/5 px-2 py-0.5 rounded border border-cyan-500/10">{project.tag}</span>
+                    <span className="text-cyan-400 tracking-wider uppercase font-semibold text-[10px] bg-cyan-500/10 px-2 py-0.5 rounded border border-cyan-500/20">{project.tag}</span>
                   )}
                 </div>
-                <p className="text-zinc-400 text-sm font-light leading-relaxed pl-7">{project.desc}</p>
+                <p className="text-slate-400 text-sm font-light leading-relaxed pl-7">{project.desc}</p>
               </div>
               <div className="flex flex-wrap gap-1.5 md:justify-end max-w-xs pl-7 md:pl-0">
                 {project.tech.map((tech, j) => (
-                  <span key={j} className="px-2 py-0.5 text-[11px] text-zinc-500 bg-zinc-950/40 border border-zinc-900 rounded-md group-hover:border-zinc-800 transition-colors">{tech}</span>
+                  <span key={j} className="px-2 py-0.5 text-[11px] text-slate-400 bg-slate-950/60 border border-slate-800 rounded-md group-hover:border-cyan-500/20 transition-colors">{tech}</span>
                 ))}
               </div>
             </div>
@@ -290,20 +291,20 @@ export default function App() {
       </section>
 
       {/* HACKATHONS */}
-      <section id="hackathons" className="py-24 px-6 max-w-5xl mx-auto border-t border-zinc-900/60">
+      <section id="hackathons" className="py-24 px-6 max-w-5xl mx-auto border-t border-slate-900/60">
         <div className="mb-10">
-          <div className="text-xs uppercase tracking-widest text-zinc-500 font-bold">{current.hackathonTag}</div>
+          <div className="text-xs uppercase tracking-widest text-cyan-400/80 font-bold">{current.hackathonTag}</div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mt-1">{current.hackathonSub}</h2>
         </div>
         <div className="space-y-6">
           {current.hackathons.map((hack, i) => (
-            <div key={i} className="p-8 bg-zinc-900/20 border border-zinc-800/60 rounded-2xl hover:border-cyan-500/30 transition-all backdrop-blur-sm">
+            <div key={i} className="p-8 bg-slate-900/40 border border-slate-800/60 rounded-2xl hover:border-cyan-500/30 transition-all backdrop-blur-sm">
               <h3 className="text-xl font-bold text-white mb-1">{hack.title}</h3>
-              <p className="text-xs text-zinc-500 mb-4">{hack.date}</p>
-              <p className="text-zinc-300 text-sm font-light leading-relaxed mb-6">{hack.desc}</p>
+              <p className="text-xs text-slate-500 mb-4">{hack.date}</p>
+              <p className="text-slate-300 text-sm font-light leading-relaxed mb-6">{hack.desc}</p>
               <div className="flex flex-wrap gap-2">
                 {hack.tools.map((t, j) => (
-                  <span key={j} className="px-2.5 py-1 text-xs text-cyan-400 bg-cyan-500/5 rounded-md border border-cyan-500/10">{t}</span>
+                  <span key={j} className="px-2.5 py-1 text-xs text-cyan-400 bg-cyan-500/10 rounded-md border border-cyan-500/20">{t}</span>
                 ))}
               </div>
             </div>
@@ -312,23 +313,23 @@ export default function App() {
       </section>
 
       {/* SKILLS */}
-      <section id="skills" className="py-24 px-6 max-w-5xl mx-auto border-t border-zinc-900/60">
+      <section id="skills" className="py-24 px-6 max-w-5xl mx-auto border-t border-slate-900/60">
         <div className="mb-14">
-          <div className="text-xs uppercase tracking-widest text-zinc-500 font-bold">{current.skillsTag}</div>
+          <div className="text-xs uppercase tracking-widest text-cyan-400/80 font-bold">{current.skillsTag}</div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mt-1">{current.skillsSub}</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {current.skills.map((category, i) => (
             <div key={i} className="space-y-6">
-              <h3 className="text-xs font-bold text-zinc-400 uppercase tracking-widest border-b border-zinc-800 pb-2">{category.cat}</h3>
+              <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest border-b border-slate-800 pb-2">{category.cat}</h3>
               <div className="space-y-4">
                 {category.items.map((skill, j) => (
                   <div key={j} className="space-y-2">
-                    <div className="flex justify-between text-xs font-medium text-zinc-300">
+                    <div className="flex justify-between text-xs font-medium text-slate-300">
                       <span>{skill.n}</span>
                       <span className="text-cyan-400">{skill.l}</span>
                     </div>
-                    <div className="w-full bg-zinc-950 border border-zinc-800/80 h-1.5 rounded-full overflow-hidden">
+                    <div className="w-full bg-slate-950 border border-slate-800/80 h-1.5 rounded-full overflow-hidden">
                       <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full rounded-full" style={{ width: skill.l }} />
                     </div>
                   </div>
@@ -340,25 +341,25 @@ export default function App() {
       </section>
 
       {/* COURSES */}
-      <section className="py-24 px-6 max-w-5xl mx-auto border-t border-zinc-900/60">
+      <section className="py-24 px-6 max-w-5xl mx-auto border-t border-slate-900/60">
         <div className="mb-10">
-          <div className="text-xs uppercase tracking-widest text-zinc-500 font-bold">{current.certTag}</div>
+          <div className="text-xs uppercase tracking-widest text-cyan-400/80 font-bold">{current.certTag}</div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mt-1">{current.certSub}</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-4">
           {current.courses.map((course, i) => (
-            <div key={i} className="p-5 bg-zinc-900/20 border border-zinc-800/60 rounded-xl flex flex-col justify-between hover:border-zinc-700 transition-all">
-              <h4 className="text-sm font-bold text-zinc-200 leading-snug">{course.t}</h4>
-              <p className="text-xs text-zinc-500 mt-3">{course.p}</p>
+            <div key={i} className="p-5 bg-slate-900/40 border border-slate-800/60 rounded-xl flex flex-col justify-between hover:border-cyan-500/20 transition-all">
+              <h4 className="text-sm font-bold text-slate-200 leading-snug">{course.t}</h4>
+              <p className="text-xs text-slate-500 mt-3">{course.p}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="py-24 px-6 border-t border-zinc-900/60 text-center">
+      <section id="contact" className="py-24 px-6 border-t border-slate-900/60 text-center">
         <div className="max-w-xl mx-auto space-y-8">
-          <div className="text-xs uppercase tracking-widest text-zinc-500 font-bold">{current.contactTag}</div>
+          <div className="text-xs uppercase tracking-widest text-cyan-400/80 font-bold">{current.contactTag}</div>
           <h2 className="text-3xl font-extrabold tracking-tight text-white leading-snug">{current.contactHeading}</h2>
           <div className="pt-2">
             <a href="mailto:d4n4h8@outlook.sa" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-600 rounded-xl font-bold hover:opacity-90 transition-all text-sm tracking-wide shadow-xl shadow-cyan-500/10 text-white">
@@ -366,17 +367,17 @@ export default function App() {
               <span>d4n4h8@outlook.sa</span>
             </a>
           </div>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-zinc-400 text-sm pt-4 border-t border-zinc-800/60 max-w-md mx-auto">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-slate-400 text-sm pt-4 border-t border-slate-800/60 max-w-md mx-auto">
             <a href="tel:+966595098760" className="flex items-center gap-2 hover:text-cyan-400 transition-colors py-1">
               <PhoneIcon />
               <span>+966 59 509 8760</span>
             </a>
-            <span className="hidden sm:inline text-zinc-800">|</span>
+            <span className="hidden sm:inline text-slate-800">|</span>
             <a href="https://www.linkedin.com/in/danah-matuq-079515306/" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-cyan-400 transition-colors py-1">
               <LinkedInIcon />
               <span>LinkedIn</span>
             </a>
-            <span className="hidden sm:inline text-zinc-800">|</span>
+            <span className="hidden sm:inline text-slate-800">|</span>
             <a href="https://github.com/d4n4h8" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-cyan-400 transition-colors py-1">
               <GithubIcon />
               <span>GitHub</span>
@@ -385,7 +386,7 @@ export default function App() {
         </div>
       </section>
 
-      <footer className="py-8 border-t border-zinc-900/20 bg-zinc-950/20 text-center text-xs text-zinc-600">
+      <footer className="py-8 border-t border-slate-900/40 bg-slate-950/40 text-center text-xs text-slate-600">
         <div>© 2026 Danah Matuq</div>
       </footer>
     </div>
