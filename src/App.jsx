@@ -357,28 +357,28 @@ export default function App() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="py-24 px-6 border-t border-slate-900/60 text-center">
-        <div className="max-w-xl mx-auto space-y-8">
+      <section id="contact" className="py-24 px-6 border-t border-slate-900/60 text-center relative z-30">
+        <div className="max-w-xl mx-auto space-y-8 pointer-events-auto">
           <div className="text-xs uppercase tracking-widest text-cyan-400/80 font-bold">{current.contactTag}</div>
           <h2 className="text-3xl font-extrabold tracking-tight text-white leading-snug">{current.contactHeading}</h2>
           <div className="pt-2">
-            <a href="mailto:d4n4h8@outlook.sa" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-600 rounded-xl font-bold hover:opacity-90 transition-all text-sm tracking-wide shadow-xl shadow-cyan-500/10 text-white">
+            <a href="mailto:d4n4h8@outlook.sa" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-600 rounded-xl font-bold hover:opacity-90 transition-all text-sm tracking-wide shadow-xl shadow-cyan-500/10 text-white cursor-pointer relative z-30">
               <MailIcon />
               <span>d4n4h8@outlook.sa</span>
             </a>
           </div>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-slate-400 text-sm pt-4 border-t border-slate-800/60 max-w-md mx-auto">
-            <a href="tel:+966595098760" className="flex items-center gap-2 hover:text-cyan-400 transition-colors py-1">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-slate-400 text-sm pt-4 border-t border-slate-800/60 max-w-md mx-auto relative z-30">
+            <a href="tel:+966595098760" className="flex items-center gap-2 hover:text-cyan-400 transition-colors py-1 cursor-pointer relative z-30">
               <PhoneIcon />
               <span>+966 59 509 8760</span>
             </a>
             <span className="hidden sm:inline text-slate-800">|</span>
-            <a href="https://www.linkedin.com/in/danah-matuq-079515306/" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-cyan-400 transition-colors py-1">
+            <a href="https://www.linkedin.com/in/danah-matuq-079515306/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-400 transition-colors py-1 cursor-pointer relative z-30">
               <LinkedInIcon />
               <span>LinkedIn</span>
             </a>
             <span className="hidden sm:inline text-slate-800">|</span>
-            <a href="https://github.com/d4n4h8" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-cyan-400 transition-colors py-1">
+            <a href="https://github.com/d4n4h8" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-400 transition-colors py-1 cursor-pointer relative z-30">
               <GithubIcon />
               <span>GitHub</span>
             </a>
