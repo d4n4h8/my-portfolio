@@ -81,10 +81,10 @@ const content = {
       { href: '#contact', num: '// 05', label: 'Get in Touch' },
     ],
     projects: [
-      { num: '1/4', tag: '🔥 Current Mission', title: 'NABEEH | نبيه – Smart System for Predicting Pedestrian Safety in Blind Spots', desc: 'An AI-powered pedestrian safety system designed for Infrastructure-to-Vehicle (I2V) environments. It combines object detection, tracking, trajectory prediction, and risk assessment to provide real-time safety alerts for drivers.', tech: ['YOLOv10', 'DeepSORT', 'Social-LSTM', 'OpenCV'] },
-      { num: '2/4', tag: '', title: '🏥 Cardiac Arrest Risk Prediction System', desc: 'A specialized machine learning system that utilizes deep time-series parsing and synthetic medical feature engineering to predict patient cardiac arrest risks 10-30 minutes in advance.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'] },
-      { num: '3/4', tag: '', title: '🎨 Discovering Emergent Visual Identities in Static Images', desc: 'An unsupervised learning project that discovers hidden visual patterns in interior design images using feature extraction, dimensionality reduction, and clustering techniques.', tech: ['ResNet50', 'PCA', 'K-Means', 'DBSCAN', 't-SNE', 'Python'] },
-      { num: '4/4', tag: '', title: '👁️ Neural Style Transfer', desc: 'Deep Learning project that transforms images into artistic styles using convolutional neural networks and representation learning.', tech: ['PyTorch', 'VGG19', 'Computer Vision'] }
+      { num: '1/4', tag: '🔥 Current Mission', title: 'NABEEH | نبيه – Smart System for Predicting Pedestrian Safety in Blind Spots', desc: 'An AI-powered pedestrian safety system designed for Infrastructure-to-Vehicle (I2V) environments. It combines object detection, tracking, trajectory prediction, and risk assessment to provide real-time safety alerts for drivers.', tech: ['YOLOv10', 'DeepSORT', 'Social-LSTM', 'OpenCV'], link: 'https://github.com/d4n4h8' },
+      { num: '2/4', tag: '', title: '🏥 Cardiac Arrest Risk Prediction System', desc: 'A specialized machine learning system that utilizes deep time-series parsing and synthetic medical feature engineering to predict patient cardiac arrest risks 10-30 minutes in advance.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'], link: 'https://github.com/d4n4h8/Cardiac-Arrest-Prediction_ML' },
+      { num: '3/4', tag: '', title: '🎨 Discovering Emergent Visual Identities in Static Images', desc: 'An unsupervised learning project that discovers hidden visual patterns in interior design images using feature extraction, dimensionality reduction, and clustering techniques.', tech: ['ResNet50', 'PCA', 'K-Means', 'DBSCAN', 't-SNE', 'Python'], link: 'https://github.com/d4n4h8/Discovering-Emergent-Visual-Identities' },
+      { num: '4/4', tag: '', title: '👁️ Neural Style Transfer', desc: 'Deep Learning project that transforms images into artistic styles using convolutional neural networks and representation learning.', tech: ['PyTorch', 'VGG19', 'Computer Vision'], link: 'https://github.com/d4n4h8/Neural_Style_Transfer' }
     ],
     hackathons: [
       { title: '☕ CoFind - Asir Tabtaker Hackathon (2025)', date: 'Jul 2025 - Jul 2025', desc: "Developed an AI-powered classification system, achieving 91.2% accuracy in identifying export-quality coffee beans. Reduced agricultural waste and increased farmers profitability.", tools: ['Python', 'Machine Learning', 'Computer Vision (YOLOv11)'] }
@@ -135,12 +135,12 @@ const content = {
       { href: '#contact', num: '// 05', label: 'تواصلي معي' },
     ],
     projects: [
-      { num: '1/4', tag: '🔥 المهمة الحالية', title: 'نبيه | NABEEH - نظام ذكي للتنبؤ بسلامة المشاة في النقاط العمياء', desc: 'نظام أمان للمشاة مدعوم بالذكاء الاصطناعي مصمم لبيئات البنية التحتية للمركبات (I2V). يجمع بين اكتشاف الأشياء، التتبع، التنبؤ بالمسار، وتقييم المخاطر لتقديم تنبيهات أمان فورية للسائقين.', tech: ['YOLOv10', 'DeepSORT', 'Social-LSTM', 'OpenCV'] },
-      { num: '2/4', tag: '', title: '🏥 نظام التنبؤ بمخاطر السكتة القلبية', desc: 'نظام متخصص في تعلم الآلة يستخدم التحليل العميق للسلاسل الزمنية وهندسة الميزات الطبيعية الاصطناعية للتنبؤ بمخاطر السكتة القلبية للمرضى قبل 10-30 دقيقة.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'] },
-      { num: '3/4', tag: '', title: '🎨 اكتشاف الهويات البصرية الناشئة في الصور الثابتة', desc: 'مشروع تعلم غير خاضع للإشراف يكتشف الأنماط البصرية المخفية في صور التصميم الداخلي باستخدام استخراج الميزات، تقليل الأبعاد، وتقنيات التجميع.', tech: ['ResNet50', 'PCA', 'K-Means', 'DBSCAN', 't-SNE', 'Python'] },
-      { num: '4/4', tag: '', title: '👁️ نقل الأنماط العصبية (Neural Style Transfer)', desc: 'مشروع تعلم عميق يقوم بتحويل الصور إلى أنماط فنية باستخدام الشبكات العصبية الالتفافية والتعلم التمثيلي.', tech: ['PyTorch', 'VGG19', 'Computer Vision'] }
+      { num: '1/4', tag: '🔥 المهمة الحالية', title: 'نبيه | NABEEH - نظام ذكي للتنبؤ بسلامة المشاة في النقاط العمياء', desc: 'نظام أمان للمشاة مدعوم بالذكاء الاصطناعي مصمم لبيئات البنية التحتية للمركبات (I2V). يجمع بين اكتشاف الأشياء، التتبع، التنبؤ بالمسار، وتقييم المخاطر لتقديم تنبيهات أمان فورية للسائقين.', tech: ['YOLOv10', 'DeepSORT', 'Social-LSTM', 'OpenCV'], link: 'https://github.com/d4n4h8' },
+      { num: '2/4', tag: '', title: '🏥 نظام التنبؤ بمخاطر السكتة القلبية', desc: 'نظام متخصص في تعلم الآلة يستخدم التحليل العميق للسلاسل الزمنية وهندسة الميزات الطبيعية الاصطناعية للتنبؤ بمخاطر السكتة القلبية للمرضى قبل 10-30 دقيقة.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'], link: 'https://github.com/d4n4h8/Cardiac-Arrest-Prediction_ML' },
+      { num: '3/4', tag: '', title: '🎨 اكتشاف الهويات البصرية الناشئة في الصور الثابتة', desc: 'مشروع تعلم غير خاضع للإشراف يكتشف الأنماط البصرية المخفية في صور التصميم الداخلي باستخدام استخراج الميزات، تقليل الأبعاد، وتقنيات التجميع.', tech: ['ResNet50', 'PCA', 'K-Means', 'DBSCAN', 't-SNE', 'Python'], link: 'https://github.com/d4n4h8/Discovering-Emergent-Visual-Identities' },
+      { num: '4/4', tag: '', title: '👁️ نقل الأنماط العصبية (Neural Style Transfer)', desc: 'مشروع تعلم عميق يقوم بتحويل الصور إلى أنماط فنية باستخدام الشبكات العصبية الالتفافية والتعلم التمثيلي.', tech: ['PyTorch', 'VGG19', 'Computer Vision'], link: 'https://github.com/d4n4h8/Neural_Style_Transfer'},
     ],
-    hackathons: [
+      hackathons: [
       { title: '☕ CoFind - هاكاثون عسير تبتكر (2025)', date: 'يوليو 2025 - يوليو 2025', desc: 'تطوير نظام تصنيف مدعوم بالذكاء الاصطناعي، وتحقيق دقة بلغت 91.2% في تحديد حبوب البن الصالحة للتصدير. ساهم المشروع في تقليل النفايات الزراعية وزيادة ربحية المزارعين.', tools: ['Python', 'Machine Learning', 'Computer Vision (YOLOv11)'] }
     ],
     skills: [
@@ -262,30 +262,39 @@ export default function App() {
       </section>
 
       {/* PROJECTS */}
-      <section id="projects" className="py-24 px-6 max-w-5xl mx-auto border-t border-slate-900/60">
+      <section id="projects" className="py-24 px-6 max-w-5xl mx-auto border-t border-slate-900/60 relative z-30">
         <div className="mb-14">
           <div className="text-xs uppercase tracking-widest text-cyan-400/80 font-bold">{current.workTag}</div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mt-1">{current.workSub}</h2>
         </div>
-        <div className="divide-y divide-slate-900/80">
+        <div className="divide-y divide-slate-900/80 relative z-30">
           {current.projects.map((project, i) => (
-            <div key={i} className="group py-8 flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-slate-900/30 px-4 -mx-4 rounded-xl transition-all duration-300">
+            <a 
+              key={i} 
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group py-8 flex flex-col md:flex-row md:items-center justify-between gap-6 hover:bg-slate-900/30 px-4 -mx-4 rounded-xl transition-all duration-300 block cursor-pointer relative z-30 pointer-events-auto"
+            >
               <div className="space-y-2 max-w-2xl">
                 <div className="flex items-center gap-3 flex-wrap">
                   <span className="text-xs text-slate-500 group-hover:text-cyan-400 transition-colors">{project.num}</span>
-                  <h3 className="text-lg font-bold text-zinc-100 group-hover:text-cyan-400 transition-colors">{project.title}</h3>
+                  <h3 className="text-lg font-bold text-zinc-100 group-hover:text-cyan-400 transition-colors flex items-center gap-1.5">
+                    {project.title}
+                    <span className="text-xs text-slate-500 opacity-0 group-hover:opacity-100 transition-all duration-300">↗</span>
+                  </h3>
                   {project.tag && (
                     <span className="text-cyan-400 tracking-wider uppercase font-semibold text-[10px] bg-cyan-500/10 px-2 py-0.5 rounded border border-cyan-500/20">{project.tag}</span>
                   )}
                 </div>
                 <p className="text-slate-400 text-sm font-light leading-relaxed pl-7">{project.desc}</p>
               </div>
-              <div className="flex flex-wrap gap-1.5 md:justify-end max-w-xs pl-7 md:pl-0">
+              <div className="flex flex-wrap gap-1.5 md:justify-end max-w-xs pl-7 md:pl-0 relative z-30">
                 {project.tech.map((tech, j) => (
                   <span key={j} className="px-2 py-0.5 text-[11px] text-slate-400 bg-slate-950/60 border border-slate-800 rounded-md group-hover:border-cyan-500/20 transition-colors">{tech}</span>
                 ))}
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </section>
