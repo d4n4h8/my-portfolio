@@ -64,7 +64,7 @@ const content = {
     workTag: "02 — Selected Work 💻",
     workSub: "Featured Work",
     hackathonTag: "03 — Hackathons 🚀",
-    hackathonSub: "Hackathons & Competitions",
+    hackathonSub: "Hackathons",
     skillsTag: "04 — Capabilities 🧠",
     skillsSub: "Capabilities",
     certTag: "05 — Courses 🎖️",
@@ -82,7 +82,7 @@ const content = {
     ],
     projects: [
       { num: '1/4', tag: '🔥 Current Mission', title: 'NABEEH | نبيه – Smart System for Predicting Pedestrian Safety in Blind Spots', desc: 'An AI-powered pedestrian safety system designed for Infrastructure-to-Vehicle (I2V) environments. It combines object detection, tracking, trajectory prediction, and risk assessment to provide real-time safety alerts for drivers.', tech: ['YOLOv10', 'DeepSORT', 'Social-LSTM', 'OpenCV'] },
-      { num: '2/4', tag: '', title: '❤️ Cardiac Arrest Risk Prediction System', desc: 'A specialized machine learning system that utilizes deep time-series parsing and synthetic medical feature engineering to predict patient cardiac arrest risks 10-30 minutes in advance.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'] },
+      { num: '2/4', tag: '', title: '🏥 Cardiac Arrest Risk Prediction System', desc: 'A specialized machine learning system that utilizes deep time-series parsing and synthetic medical feature engineering to predict patient cardiac arrest risks 10-30 minutes in advance.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'] },
       { num: '3/4', tag: '', title: '🎨 Discovering Emergent Visual Identities in Static Images', desc: 'An unsupervised learning project that discovers hidden visual patterns in interior design images using feature extraction, dimensionality reduction, and clustering techniques.', tech: ['ResNet50', 'PCA', 'K-Means', 'DBSCAN', 't-SNE', 'Python'] },
       { num: '4/4', tag: '', title: '👁️ Neural Style Transfer', desc: 'Deep Learning project that transforms images into artistic styles using convolutional neural networks and representation learning.', tech: ['PyTorch', 'VGG19', 'Computer Vision'] }
     ],
@@ -118,7 +118,7 @@ const content = {
     workTag: "02 — المشاريع المختارة 💻",
     workSub: "المشاريع البارزة",
     hackathonTag: "03 — الهاكاثونات 🚀",
-    hackathonSub: 'الهاكاثونات والمسابقات',
+    hackathonSub: 'الهاكاثونات',
     skillsTag: "04 — القدرات 🧠",
     skillsSub: "القدرات",
     certTag: "05 — الدورات 🎖️",
@@ -136,7 +136,7 @@ const content = {
     ],
     projects: [
       { num: '1/4', tag: '🔥 المهمة الحالية', title: 'نبيه | NABEEH - نظام ذكي للتنبؤ بسلامة المشاة في النقاط العمياء', desc: 'نظام أمان للمشاة مدعوم بالذكاء الاصطناعي مصمم لبيئات البنية التحتية للمركبات (I2V). يجمع بين اكتشاف الأشياء، التتبع، التنبؤ بالمسار، وتقييم المخاطر لتقديم تنبيهات أمان فورية للسائقين.', tech: ['YOLOv10', 'DeepSORT', 'Social-LSTM', 'OpenCV'] },
-      { num: '2/4', tag: '', title: '❤️ نظام التنبؤ بمخاطر السكتة القلبية', desc: 'نظام متخصص في تعلم الآلة يستخدم التحليل العميق للسلاسل الزمنية وهندسة الميزات الطبيعية الاصطناعية للتنبؤ بمخاطر السكتة القلبية للمرضى قبل 10-30 دقيقة.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'] },
+      { num: '2/4', tag: '', title: '🏥 نظام التنبؤ بمخاطر السكتة القلبية', desc: 'نظام متخصص في تعلم الآلة يستخدم التحليل العميق للسلاسل الزمنية وهندسة الميزات الطبيعية الاصطناعية للتنبؤ بمخاطر السكتة القلبية للمرضى قبل 10-30 دقيقة.', tech: ['PyTorch', 'LSTM', 'SHAP (XAI)', 'Scikit-Learn', 'Pandas', 'Synthetic Data'] },
       { num: '3/4', tag: '', title: '🎨 اكتشاف الهويات البصرية الناشئة في الصور الثابتة', desc: 'مشروع تعلم غير خاضع للإشراف يكتشف الأنماط البصرية المخفية في صور التصميم الداخلي باستخدام استخراج الميزات، تقليل الأبعاد، وتقنيات التجميع.', tech: ['ResNet50', 'PCA', 'K-Means', 'DBSCAN', 't-SNE', 'Python'] },
       { num: '4/4', tag: '', title: '👁️ نقل الأنماط العصبية (Neural Style Transfer)', desc: 'مشروع تعلم عميق يقوم بتحويل الصور إلى أنماط فنية باستخدام الشبكات العصبية الالتفافية والتعلم التمثيلي.', tech: ['PyTorch', 'VGG19', 'Computer Vision'] }
     ],
